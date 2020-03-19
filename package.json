@@ -1,23 +1,25 @@
 {
   "name": "react-native-paytabs-sdk",
   "title": "React Native Paytabs Sdk",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "The latest React Native integration of Paytabs mobile SDK",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-paytabs-sdk.git",
-    "baseUrl": "https://github.com/github_account/react-native-paytabs-sdk"
+    "url": "git+https://github.com/Simicart/react-native-paytabs-sdk.git",
+    "baseUrl": "https://github.com/Simicart/react-native-paytabs-sdk"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "paytabs",
+    "payment"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Glenn",
+    "email": "glenn@simicart.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
