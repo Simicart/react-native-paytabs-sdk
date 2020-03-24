@@ -70,11 +70,11 @@ import com.rn.paytabs.PaytabsSdkModule;
 2. Extract the PayTabs iOS SDK.zip file which contains `paytabs-iOS.framework` and `Resources.bundle`.
 3. Add `paytabs-iOS.framework` and `Resources.bundle` into your Pods Frameworks folder by dragging and with Copy items if needed checked. In Add to targets section, `react-native-paytabs-sdk` should be checked. Note: Please wipe out completely if you have any previous version already added in your codebase i.e. Delete it with "Move to trash" option and removing it from your Xcode project navigator.
 
-![](https://github.com/Simicart/react-native-paytabs-sdk/blob/master/images/screenshot_2.png)
+![](https://github.com/Simicart/react-native-paytabs-sdk/blob/master/images/screenshot_3.png)
 
 4. Copy path of paytabs_iOS.h file from paytabs-iOS.framework → Headers and add that path in Pods → Development Pods → react-native-paytabs-sdk → PaytabsSdk.m as shown in screenshot.
 
-![](https://github.com/Simicart/react-native-paytabs-sdk/blob/master/images/screenshot_3.png)
+![](https://github.com/Simicart/react-native-paytabs-sdk/blob/master/images/screenshot_2.png)
 
 5. Add those pods
 
