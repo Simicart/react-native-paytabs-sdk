@@ -1,7 +1,7 @@
 {
   "name": "react-native-paytabs-sdk",
   "title": "React Native Paytabs Sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The latest React Native integration of Paytabs mobile SDK",
   "main": "index.js",
   "scripts": {
