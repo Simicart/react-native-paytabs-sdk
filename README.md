@@ -143,4 +143,4 @@ onPay = () => {
 };
 ```
 
-#### for more details, visit references [Payfort Mobile SDK](https://dev.paytabs.com/docs/android.html)
+#### for more details, visit references [Paytabs Mobile SDK](https://dev.paytabs.com/docs/android.html)
