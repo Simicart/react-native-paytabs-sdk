@@ -70,7 +70,7 @@ RCT_EXPORT_METHOD(openPaytab:(NSDictionary *)indic createDialog:(RCTResponseSend
         NSLog(@"Tokenization Customer Password: %@", tokenizedCustomerPassword);
         NSLog(@"TOkenization Token: %@", token);
         
-        NSDictionary *responseDict = @{ @"reponse_code" : [@(responseCode) stringValue], @"transaction_id" : [@(transactionID) stringValue]};
+        NSDictionary *responseDict = @{ @"response_code" : [@(responseCode) stringValue], @"transaction_id" : [@(transactionID) stringValue]};
         if(token != nil) {
             [responseDict setValue:token forKey:@"token"];
         }
