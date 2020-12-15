@@ -66,17 +66,19 @@ import com.rn.paytabs.PaytabsSdkModule;
 
 ### iOS
 
-1. Download library from [here](https://raw.githubusercontent.com/paytabscom/paytabs-ios-library-sample/master/sdk/ios_sdk-v4.0.6-lite.zip)
+1. Download library from [here](https://raw.githubusercontent.com/paytabscom/paytabs-ios-library-sample/master/sdk/ios_sdk-v4.0.9-lite.zip)
 2. Extract the PayTabs iOS SDK.zip file which contains `paytabs-iOS.framework` and `Resources.bundle`.
 3. Add `paytabs-iOS.framework` and `Resources.bundle` into your Pods Frameworks folder by dragging and with Copy items if needed checked. In Add to targets section, `react-native-paytabs-sdk` should be checked. Note: Please wipe out completely if you have any previous version already added in your codebase i.e. Delete it with "Move to trash" option and removing it from your Xcode project navigator.
 
 ![](https://github.com/Simicart/react-native-paytabs-sdk/blob/master/images/screenshot_3.png)
 
-4. Copy path of paytabs_iOS.h file from paytabs-iOS.framework → Headers and add that path in Pods → Development Pods → react-native-paytabs-sdk → PaytabsSdk.m as shown in screenshot.
+4. Add `Resources.bundle` into your workspace Frameworks folder by dragging and with Copy items if needed checked. Note: Please wipe out completely if you have any previous version already added in your codebase i.e. Delete it with "Move to trash" option and removing it from your Xcode project navigator.
+
+5. Copy path of paytabs_iOS.h file from paytabs-iOS.framework → Headers and add that path in Pods → Development Pods → react-native-paytabs-sdk → PaytabsSdk.m as shown in screenshot.
 
 ![](https://github.com/Simicart/react-native-paytabs-sdk/blob/master/images/screenshot_2.png)
 
-5. Add those pods
+6. Add those pods
 
 ```
 pod 'BIObjCHelpers'
@@ -88,10 +90,11 @@ pod 'Lockbox'
 pod 'SBJson'
 pod 'PINCache'
 pod 'MBProgressHUD', '~> 1.1.0'
+pod 'ActionSheetPicker-3.0'
 ```
 
-6. open iOS folder in terminal and run command "pod install" .
-7. Disable the perfect forward secrecy (PFS) only for paytabs.com
+7. open iOS folder in terminal and run command "pod install" .
+8. Disable the perfect forward secrecy (PFS) only for paytabs.com
 
 ```
 <key>NSAppTransportSecurity</key>
